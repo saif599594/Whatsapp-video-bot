@@ -1,0 +1,13 @@
+{
+  "name": "whatsapp-video-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot to download Facebook, YouTube, Instagram, and TikTok videos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.0",
+    "@whiskeysockets/baileys": "^6.7.4"
+  }
+}
