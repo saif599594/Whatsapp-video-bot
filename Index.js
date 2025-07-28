@@ -1,3 +1,10 @@
+const express = require("express");
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+app.get("/", (req, res) => res.send("✅ WhatsApp Bot is alive!"));
+app.listen(PORT, () => console.log(`🌐 Web server running on port ${PORT}`));
+
 const { default: makeWASocket, useMultiFileAuthState, fetchLatestBaileysVersion, DisconnectReason } = require("@whiskeysockets/baileys");
 const { Boom } = require("@hapi/boom");
 const { exec } = require("child_process");
