@@ -1,17 +1,25 @@
-"scripts": {
-  "start": "node index.js"
-}
-
 {
   "name": "whatsapp-video-bot",
   "version": "1.0.0",
-  "description": "WhatsApp bot to download Facebook, YouTube, Instagram, and TikTok videos",
+  "description": "WhatsApp video downloader bot supporting Facebook, YouTube, Instagram, and TikTok.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.4",
     "@hapi/boom": "^10.0.0",
-    "@whiskeysockets/baileys": "^6.7.4"
-  }
+    "express": "^4.18.2"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "video",
+    "yt-dlp",
+    "facebook",
+    "tiktok",
+    "instagram"
+  ],
+  "author": "Saif599594",
+  "license": "MIT"
 }
